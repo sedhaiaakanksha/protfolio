@@ -8,7 +8,7 @@
         *{
             padding: 0px;
             margin: 0px;
-            border: 1px solid red;
+            /* border: 1px solid red; */
         }
         body{
             background-color:  rgb(239, 152, 173);
@@ -52,15 +52,16 @@
      main{
         height: 100vh;
         background-color: white; 
-        width: 1400px;
+        width: 1000px;
         display: flex;
+        flex-direction:row ;
         justify-content: center;
         align-items: center;
         margin-left: 400px;
      }
      .photo{
         height: 200px;
-        width: 1300px;
+        width: 928px;
         margin-top: 200px;
         margin-left: 0px;
         background-color: rgb(209, 160, 154);
@@ -79,8 +80,8 @@
      }
      .leftSide{
         width: 350px;
-        height: 1000px;
-        margin-left:-700px;
+        height: 1040px;
+        margin-left:-50px;
         background-color: rgba(82, 138, 124, 0.765);
         
      }
@@ -102,18 +103,25 @@
         margin-left: 180px;
         margin-top: 50px;
         font-size: 2.3rem;
+        font-weight: bold;
      }
      .rightSide{
-        margin-top: 40px;
+        margin-top: 400px;
         margin-left: 100px;
      }
-     .about p h3{
-        margin-left: 100px;
-
-     }
+     
      span{
         /* font-size: small; */
         font-weight: 400;
+     }
+     .aboutEdu{
+        margin-top: 20px;
+     }
+     .aboutLang{
+        margin-top: 40px;
+     }
+     .aboutSkills{
+        margin-top: 40px;
      }
     </style>
 </head>
@@ -172,7 +180,7 @@
             </div>
             </div>
             <div class="rightSide">
-                <div class="about">
+                <div class="aboutEdu">
                     <h1><i><img src="./assets/icons/arrow.png" alt="" height="30px"></i>Education</h1>
                     <p>
                         <h3>10+2 ARNIKO AWASIYA HIGHER<br/>
@@ -183,6 +191,26 @@
                         <span>2024..</span></h3>
                     </p>
 
+                </div>
+                <div class="aboutLang">
+                    <h1><i><img src="./assets/icons/arrow.png" alt="" height="30px"></i>Language</h1>
+                    <p>
+                        <h3>Native Nepali<br/>
+                        English</h3>
+                    </p>
+                </div>
+                <div class="aboutSkills">
+                    <h1><i><img src="./assets/icons/arrow.png" alt="" height="30px"></i>Skills</h1>
+                    <p>
+                        <h3>
+                        HTML<br/>
+                        CSS<br/>
+                        Basic Javascript<br/>
+                        Basic Java<br/>
+                        C
+
+                        </h3>
+                    </p>
                 </div>
             </div>
         </main>
