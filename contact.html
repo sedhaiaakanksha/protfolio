@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color:  rgb(239, 152, 173);
+        }
+    .navBar{
+        height: 120px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+     }  
+     .pages{
+        width: 700px;
+        
+     }
+     .pages ul{
+        display: flex;
+        gap: 40px;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        position: fixed;
+        top: 0;
+        right: 2%;
+        
+     }
+     .pages ul a{
+        text-decoration: none;
+        color: rgb(210, 153, 166);
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-size: x-large;
+        
+
+     }
+     .pages ul a:hover{
+        background-color: rgb(46, 45, 45);
+     }
+     main{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        
+
+     }
+     .info{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 600px;
+        height: 500px;
+        margin-top: 80px;
+        /* background-color: aliceblue; */
+     }
+     .address img, .contact img, .email img{
+        height: 40px;
+        width: 40px;
+
+     }
+     .address p, .contact p, .email p{
+        font-size: 1.6rem;
+     }
+     form{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        height: 550px;
+        width: 600px;
+        padding: 40px;
+     }
+     .nameBox, .emailBox, .messageBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .nameBox input, .emailBox input, textarea{
+        width: 500px;
+        font-size: 1.6rem;
+        height: 40px;
+        border: 1px solid rgb(183, 88, 104);
+     }
+     textarea{
+        height: 300px;
+        
+     }
+     .nameBox input::placeholder, .emailBox input::placeholder, textarea::placeholder{
+        color: rgb(165, 76, 91);
+     }
+     .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .btn button{
+        padding: 15px;
+        font-size: 1.3rem;
+        color: black;
+        background-color: pink;
+        border-radius: 30px;
+       
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+    <div class="navBar">
+        <div class="logo">
+            <img src="./assets/images/logo.png" alt="" height="80px" width="300px">
+        </div>
+        <div class="pages">
+        <ul type="none">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a> </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Resume</a> </li>
+
+        </ul>
+    </div>
+</div>
+<main>
+    <div class="info">
+        <div class="address">
+          <h1><i><img src="./assets/icons/location.png" alt=""></i>Address</h1>
+          <p> &nbsp; &nbsp; &nbsp;Budhiganaga -1, Tankisinuwari,<br/>
+            &nbsp;&nbsp; &nbsp;&nbsp;Morang</p>
+        </div>
+        <div class="contact">
+            <h1><i><img src="./assets/icons/contact.png" alt=""></i>Contact</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9805966009</p>
+        </div>
+        <div class="email">
+            <h1><i><img src="./assets/icons/mail.png" alt="">E-mail</i></h1>
+            <p>.&nbsp; &nbsp; &nbsp;sedhaiaakanksha@gmail.com</p>
+        </div>
+
+    </div>
+    <form action="">
+        <div class="nameBox">
+            <input type="text" placeholder="Your Name" required>
+        </div>
+        <div class="emailBox">
+            <input type="email" placeholder="Your E-mail" required>
+        </div>
+        <div class="messageBox">
+            <textarea name="" id="" placeholder="Leave your message..."></textarea>
+        </div>
+        <div class="btn">
+            <button>Submit</button>
+        </div>
+    </form>
+</main>
+</div>
+</div>
+</body>
+</html>
